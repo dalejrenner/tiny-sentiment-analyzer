@@ -20,7 +20,7 @@ text = st.text_area(
     height=160,
     placeholder="e.g., I love this! It’s fast and easy to use."
 )
-
+# comment 
 if st.button("Analyze sentiment"):
     if not text.strip():
         st.warning("Please paste some text first.")
