@@ -1,7 +1,7 @@
 import streamlit as st
 from transformers import pipeline
 
-st.set_page_config(page_title="Hello, Dale", layout="centered")
+st.set_page_config(page_title="Welcome!", layout="centered")
 st.title("🧠 Tiny Sentiment Analyzer")
 st.caption("Runs locally on CPU. No data is stored.")
 
