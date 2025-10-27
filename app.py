@@ -3,7 +3,7 @@ from transformers import pipeline
 
 # --- Page setup ---
 st.set_page_config(page_title="Welcome!", layout="centered")
-st.title("🧠 Tiny Sentiment Analyzer")
+st.title("🧠 Sentiment Analyzer")
 st.caption("Runs locally on CPU. No data is stored.")
 
 # --- Load the model (cached so it only loads once) ---
